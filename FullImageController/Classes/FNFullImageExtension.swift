@@ -8,8 +8,9 @@
 
 import UIKit
 import Photos
-import Kingfisher
+//import Kingfisher
 
+/*
 //MARK: NavigationFullImageController
 public class NavigationFullImageController: FullImageViewController {
     override public var currentIndex: Int {
@@ -273,5 +274,6 @@ class CommentFIDetailInfoView : UIView {
         self.commentMsgLabel?.attributedText = NSAttributedString.init(string: commentImage?.commentMsg ?? "", attributes: [NSFontAttributeName:UIFont.systemFont(ofSize: 12),NSForegroundColorAttributeName:UIColor.white])
     }
 }
+*/
 
 

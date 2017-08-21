@@ -1,0 +1,32 @@
+{
+  "name": "FullImageController",
+  "version": "0.1.0",
+  "summary": "this is first version for swift , it provide basefullimagecontroller,navigaitonFull,commentFull,you can defined fullImagecontroller,superclass is FullImageViewController",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Minyoung/FullImageController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Minyoung": "minyoung361@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Minyoung/FullImageController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FullImageController/Classes/**/*",
+  "resource_bundles": {
+    "FullImageController": [
+      "FullImageController/Assets/*.{xcassets}"
+    ]
+  },
+  "dependencies": {
+    "Kingfisher": [
+
+    ]
+  }
+}

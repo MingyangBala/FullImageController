@@ -1,0 +1,25 @@
+PODS:
+  - FullImageController (0.1.0):
+    - Kingfisher
+  - Kingfisher (3.11.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - FullImageController (from `../`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  FullImageController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FullImageController: 65de0fc437af92de035dd0adee8f94aaa98f9a37
+  Kingfisher: c8911a7672c6217dec8c0520fb6e76ec4b7e0780
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: 4e6211c451bbcbbead4d21cbce8e639e0013e61a
+
+COCOAPODS: 1.1.1

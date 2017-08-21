@@ -1,0 +1,6 @@
+framework module FullImageController {
+  umbrella header "FullImageController-umbrella.h"
+
+  export *
+  module * { export * }
+}
