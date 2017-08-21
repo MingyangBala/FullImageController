@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FullImageController'
   s.version          = '0.1.0'
-  s.summary          = 'browse full screen photo in iphone'
+  s.summary          = 'A short description of FullImageController.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,26 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-this is first version for swift , it provide basefullimagecontroller,navigaitonFull,commentFull,you can defined fullImagecontroller,superclass is FullImageViewController
+TODO: Add long description of the pod here.
                        DESC
 
-s.homepage         = 'http://www.feiniu.com'
+  s.homepage         = 'https://github.com/Minyoung/FullImageController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Minyoung' => 'mingyang.su@feiniu.com' }
-  s.source           = { :svn => 'http://mingyang.su@svnserver01.fn.com/ios/fn-ios/ShareCode/MingyangShare/FullImageController_Swift'}
+  s.author           = { 'Minyoung' => 'minyoung361@163.com' }
+  s.source           = { :git => 'https://github.com/Minyoung/FullImageController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FullImageController/Classes/**/*'
   
-   s.resource_bundles = {
-    'FullImageController' => ['FullImageController/Assets/*.{xcassets}']
-   }
+  # s.resource_bundles = {
+  #   'FullImageController' => ['FullImageController/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Kingfisher'
-  #s.dependency 'PKHUD'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -14,10 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B4DD3A7924307280C4F5CAA7 /* Pods_FullImageController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2913A5846A6E6DD5D12F8FED /* Pods_FullImageController_Example.framework */; };
-		CC73C1731F43E8240060BF9A /* SinglePictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73C1721F43E8240060BF9A /* SinglePictureTableViewCell.swift */; };
-		CC73C1751F43E8AB0060BF9A /* MultiplePicturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73C1741F43E8AB0060BF9A /* MultiplePicturesTableViewCell.swift */; };
-		CC73C1771F43EE650060BF9A /* WechatAnimationsPictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73C1761F43EE650060BF9A /* WechatAnimationsPictureTableViewCell.swift */; };
-		CC73C1791F4416180060BF9A /* Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73C1781F4416180060BF9A /* Reuseable.swift */; };
 		F1A920441B60A4BAB3AC9DFE /* Pods_FullImageController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FB75E228CBAB6AE12313EE /* Pods_FullImageController_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1FBA291B6A0A7D9D35707C /* FullImageController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FullImageController.podspec; path = ../FullImageController.podspec; sourceTree = "<group>"; };
+		0B1FBA291B6A0A7D9D35707C /* FullImageController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FullImageController.podspec; path = ../FullImageController.podspec; sourceTree = "<group>"; };
 		2913A5846A6E6DD5D12F8FED /* Pods_FullImageController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullImageController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3128091E043D2EBAA5B11168 /* Pods-FullImageController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullImageController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullImageController_Tests/Pods-FullImageController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3A72FED2C213D0300069A42C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3A72FED2C213D0300069A42C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		498FBC061F2D5F228518B85B /* Pods-FullImageController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullImageController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullImageController_Tests/Pods-FullImageController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FullImageController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullImageController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,11 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		77FB75E228CBAB6AE12313EE /* Pods_FullImageController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullImageController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		951F2369F98A278F82E7039A /* Pods-FullImageController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullImageController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullImageController_Example/Pods-FullImageController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC73C1721F43E8240060BF9A /* SinglePictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePictureTableViewCell.swift; sourceTree = "<group>"; };
-		CC73C1741F43E8AB0060BF9A /* MultiplePicturesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplePicturesTableViewCell.swift; sourceTree = "<group>"; };
-		CC73C1761F43EE650060BF9A /* WechatAnimationsPictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WechatAnimationsPictureTableViewCell.swift; sourceTree = "<group>"; };
-		CC73C1781F4416180060BF9A /* Reuseable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reuseable.swift; sourceTree = "<group>"; };
-		CE2D96927DE2B6B5C366B7B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CE2D96927DE2B6B5C366B7B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF35AF75577FE09B94D8053F /* Pods-FullImageController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullImageController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullImageController_Example/Pods-FullImageController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,10 +104,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				CC73C1721F43E8240060BF9A /* SinglePictureTableViewCell.swift */,
-				CC73C1741F43E8AB0060BF9A /* MultiplePicturesTableViewCell.swift */,
-				CC73C1761F43EE650060BF9A /* WechatAnimationsPictureTableViewCell.swift */,
-				CC73C1781F4416180060BF9A /* Reuseable.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,15 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = CFK9592XDR;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = CFK9592XDR;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -377,12 +361,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC73C1791F4416180060BF9A /* Reuseable.swift in Sources */,
-				CC73C1751F43E8AB0060BF9A /* MultiplePicturesTableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				CC73C1771F43EE650060BF9A /* WechatAnimationsPictureTableViewCell.swift in Sources */,
-				CC73C1731F43E8240060BF9A /* SinglePictureTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,15 +496,11 @@
 			baseConfigurationReference = DF35AF75577FE09B94D8053F /* Pods-FullImageController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CFK9592XDR;
 				INFOPLIST_FILE = FullImageController/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.feiniu.FullImageController-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d8f273a2-8761-405d-aaf6-a612bcdb047b";
-				PROVISIONING_PROFILE_SPECIFIER = FN_Development_Wild_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -534,15 +510,11 @@
 			baseConfigurationReference = 951F2369F98A278F82E7039A /* Pods-FullImageController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CFK9592XDR;
 				INFOPLIST_FILE = FullImageController/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.feiniu.FullImageController-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d8f273a2-8761-405d-aaf6-a612bcdb047b";
-				PROVISIONING_PROFILE_SPECIFIER = FN_Development_Wild_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -551,7 +523,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 498FBC061F2D5F228518B85B /* Pods-FullImageController_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = CFK9592XDR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -564,7 +535,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -573,7 +543,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3128091E043D2EBAA5B11168 /* Pods-FullImageController_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -582,7 +551,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

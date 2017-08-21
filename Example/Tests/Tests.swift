@@ -3,17 +3,8 @@
 import Quick
 import Nimble
 import FullImageController
-import Kingfisher
 
 class TableOfContentsSpec: QuickSpec {
-    
-    func test1() {
-//        full
-        
-//        KingfisherManager
-//        FullImageControllerVersionNumber
-    }
-    
     override func spec() {
         describe("these will fail") {
 
