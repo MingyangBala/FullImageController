@@ -63,7 +63,7 @@ public class FullImageViewController: UIViewController {
     
     
     //MARK: init
-    required public init?<T:FNFullImage>(imageArray:Array<T>, currentIndex:Int,pageControlType:FIPageControlType){
+    required public init?(imageArray:Array<FNFullImage>, currentIndex:Int,pageControlType:FIPageControlType){
         self.imageArray = imageArray
         self.currentIndex = currentIndex
         switch pageControlType {
